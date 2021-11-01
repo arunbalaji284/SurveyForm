@@ -1,0 +1,33 @@
+body{
+  margin: 0;
+  text-align: left;
+  font: serif;
+  background-color: beige;
+}
+
+h1{
+  text-align: center;
+  padding: 20px;
+  background-color: rgb(169, 104, 230);
+}
+label {
+  display: inline-block;
+  width: 300px;
+  vertical-align: top;
+}
+
+.form-control{
+  margin: 6px 0;
+}
+
+.required {
+  color: red;
+}
+
+.tables{
+  padding: 10px;
+}
+
+.center{
+  text-align: center;
+}

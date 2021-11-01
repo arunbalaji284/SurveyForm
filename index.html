@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Survey Form</h1>
+
+  <!-- Create Form -->
+  <form id="form">
+
+    <!-- Details -->
+    <div class="form-control">
+      <label for="name">Full Name<span class="required">*</span></label><br />
+      <input type="text" id="name" placeholder="First Name" required>
+      <input type="text" class="name" placeholder="Last Name" /><br /><br />
+
+      <label for="email">Email<span class="required">*</span></label><br />
+      <input type="email" class="email" placeholder="Email" required><br /><br />
+    </div>
+
+    <div class="satisfied-form">
+      <label for="satisfied-form">How satisfied are you with?
+        <span class="required">*</span></label><br />
+      <table class="tables" style="width:50%;"cellspacing="20px">
+        <tr>
+          <th></th>
+          <th>Very Unsatisfied</th>
+          <th>Unsatisfied</th>
+          <th>Neutral</th>
+          <th>Satisfied</th>
+          <th>Very Satisfied</th>
+        </tr>
+        <tr>
+          <td>Purchase</td>
+          <td class="center"><input type="radio" name="" value=""></td>
+          <td class="center"><input type="radio" name="" value=""></td>
+          <td class="center"><input type="radio" name="" value=""></td>
+          <td class="center"><input type="radio" name="" value=""></td>
+          <td class="center"><input type="radio" name="" value=""></td>
+        </tr>
+        <tr>
+          <td>Service</td>
+          <td class="center"><input type="radio" name="" value=""></td>
+          <td class="center"><input type="radio" name="" value=""></td>
+          <td class="center"><input type="radio" name="" value=""></td>
+          <td class="center"><input type="radio" name="" value=""></td>
+          <td class="center"><input type="radio" name="" value=""></td>
+        </tr>
+        <tr>
+          <td>Company Overall</td>
+          <td class="center"><input type="radio" name="" value=""></td>
+          <td class="center"><input type="radio" name="" value=""></td>
+          <td class="center"><input type="radio" name="" value=""></td>
+          <td class="center"><input type="radio" name="" value=""></td>
+          <td class="center"><input type="radio" name="" value=""></td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="liked-form">
+      <label for="liked-form">How satisfied are you with?
+        <span class="required">*</span></label><br />
+      <table class="tables" style="width:50%;"cellspacing="20px">
+        <tr>
+          <th></th>
+          <th>Not Unlikely</th>
+          <th>Unlikely</th>
+          <th>Likely</th>
+          <th>Satisfied</th>
+          <th>Very Likely</th>
+        </tr>
+        <tr>
+          <td>Buy from us again</td>
+          <td class="center"><input type="radio" name="" value=""></td>
+          <td class="center"><input type="radio" name="" value=""></td>
+          <td class="center"><input type="radio" name="" value=""></td>
+          <td class="center"><input type="radio" name="" value=""></td>
+          <td class="center"><input type="radio" name="" value=""></td>
+        </tr>
+        <tr>
+          <td>Recommend our products to others</td>
+          <td class="center"><input type="radio" name="" value=""></td>
+          <td class="center"><input type="radio" name="" value=""></td>
+          <td class="center"><input type="radio" name="" value=""></td>
+          <td class="center"><input type="radio" name="" value=""></td>
+          <td class="center"><input type="radio" name="" value=""></td>
+        </tr>
+        <tr>
+          <td>Recommend our company to others</td>
+          <td class="center"><input type="radio" name="" value=""></td>
+          <td class="center"><input type="radio" name="" value=""></td>
+          <td class="center"><input type="radio" name="" value=""></td>
+          <td class="center"><input type="radio" name="" value=""></td>
+          <td class="center"><input type="radio" name="" value=""></td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="form-control">
+      <label for="additional">Additional Comments or Suggestions</label><br />
+      <textarea id="additional" type="text"></textarea><br />
+
+      <input type="submit" value="Submit" />
+      <p><span class="required">*</span>Required field</p>
+    </div>
+
+  </form>
+</body>
+
+</html>

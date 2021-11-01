@@ -6,6 +6,7 @@ body{
 }
 
 h1{
+  margin: 0;
   text-align: center;
   padding: 20px;
   background-color: rgb(169, 104, 230);
